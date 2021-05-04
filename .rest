@@ -7,7 +7,7 @@ Content-Type: application/json
  "email": "debas@lbn.com", "pass": "1345"
 }
 
-### Get user
+### Get users
 
 GET http://localhost:8000/users 
 Content-Type: application/json
@@ -31,7 +31,7 @@ Content-Type: application/json
  "email": "debas@lbn.com", "pass": "1345"
 }
 
-### Create user
+### Delete user
 
-DELETE http://localhost:8000/users/1 
+DELETE http://localhost:8000/users/98498081 
 Content-Type: application/json
